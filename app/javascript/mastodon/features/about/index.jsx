@@ -125,7 +125,7 @@ class About extends PureComponent {
 
           <RulesSection />
 
-          <Section title={intl.formatMessage(messages.blocks)} onOpen={this.handleDomainBlocksOpen}>
+          {/* <Section title={intl.formatMessage(messages.blocks)} onOpen={this.handleDomainBlocksOpen}>
             {domainBlocks.get('isLoading') ? (
               <>
                 <Skeleton width='100%' />
@@ -154,7 +154,7 @@ class About extends PureComponent {
             ) : (
               <p><FormattedMessage id='about.not_available' defaultMessage='This information has not been made available on this server.' /></p>
             ))}
-          </Section>
+          </Section> */}
 
           <LinkFooter />
 
