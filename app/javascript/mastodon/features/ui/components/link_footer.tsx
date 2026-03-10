@@ -68,7 +68,7 @@ export const LinkFooter: React.FC<{
           </>
         )}
         <DividingCircle />
-        <a href='https://site.qlub.social/' target='_blank' rel='noopener'>
+        <a href='https://site.qlub.social/apps/' target='_blank' rel='noopener'>
           <FormattedMessage id='footer.get_app' defaultMessage='Get the app' />
         </a>
         <DividingCircle />
