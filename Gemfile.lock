@@ -9,8 +9,8 @@ GIT
 
 GIT
   remote: https://github.com/patchwork-hub/accounts
-  revision: 0ffb82695d49c750f09338e725fa72bbf8846927
-  branch: main
+  revision: 38201c40ca5d43c9c88166182f165393257f6889
+  branch: mastodon-4.4.5
   specs:
     accounts (0.1.0)
       byebug (~> 11.1)
@@ -20,8 +20,8 @@ GIT
 
 GIT
   remote: https://github.com/patchwork-hub/conversations
-  revision: 0adb4ac11e1a616794fcc2801242e4498b457c6f
-  branch: main
+  revision: d537a6f978f86a536d59282102d8acac95bf3ce1
+  branch: mastodon-4.4.5
   specs:
     conversations (0.1.0)
       annotaterb (~> 4.13)
@@ -30,8 +30,8 @@ GIT
 
 GIT
   remote: https://github.com/patchwork-hub/posts
-  revision: ff31fdbc38f4fccd4421ff5945f4f60baa118260
-  branch: main
+  revision: dfc8f498257516e8d24c1e70b6b5e71fd1d59b88
+  branch: mastodon-4.4.5
   specs:
     posts (0.1.0)
       annotaterb (~> 4.13)
@@ -521,6 +521,8 @@ GEM
     mutex_m (0.3.0)
     net-http (0.6.0)
       uri
+    net-http-persistent (4.0.8)
+      connection_pool (>= 2.2.4, < 4)
     net-imap (0.5.14)
       date
       net-protocol
